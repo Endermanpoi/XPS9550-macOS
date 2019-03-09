@@ -2,7 +2,7 @@
 
 参考[大佬的教程和资料](https://github.com/darkhandz/XPS-9550-Mojave)自行修改的
 
-## 配置：
+### 配置：
 
 * CPU：i7-6700HQ
 * 内存：4GB DDR4 2133 *2
@@ -11,7 +11,7 @@
 * 网卡：DW1830
 * 硬盘：960PRO 512GB
 
-## 分区：
+### 分区：
 
 Win10和macOS双系统：
 
