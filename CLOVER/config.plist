@@ -12,6 +12,8 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>FixFirewire</key>
+				<true/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
@@ -644,6 +646,8 @@
 			<true/>
 			<key>EnableC4</key>
 			<true/>
+			<key>EnableC6</key>
+			<true/>
 			<key>Generate</key>
 			<dict>
 				<key>PluginType</key>
@@ -676,7 +680,11 @@
 		<true/>
 		<key>C4</key>
 		<true/>
+		<key>C6</key>
+		<true/>
 		<key>HWPEnable</key>
+		<true/>
+		<key>QEMU</key>
 		<true/>
 	</dict>
 	<key>Devices</key>
@@ -805,7 +813,7 @@
 			<string>Recovery</string>
 		</array>
 		<key>Language</key>
-		<string>en:0</string>
+		<string>cn:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -818,12 +826,12 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<true/>
+			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>3840x2160</string>
+		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>Minimalism</string>
 	</dict>
@@ -853,6 +861,7 @@
 		<key>ForceKextsToLoad</key>
 		<array>
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
+			<string>\System\Library\Extensions\IOGraphicsFamily.kext</string>
 		</array>
 		<key>KernelLapic</key>
 		<true/>
@@ -959,29 +968,33 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>08/08/2017</string>
+		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP133.88Z.0233.B00.1708080034</string>
+		<string>MBP133.88Z.F000.B00.1812191256</string>
 		<key>Board-ID</key>
 		<string>Mac-A5C67F76ED83108C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02606902GUHCF91F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string>MacBookPro13,3</string>
+		<string>1.0</string>
 		<key>ChassisAssetTag</key>
 		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>252.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE13E</string>
+		<string>0xFC0FE13F</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -995,7 +1008,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro13,3</string>
 		<key>SerialNumber</key>
-		<string>C02SSCCGGTFN</string>
+		<string>C02R70N5GTFN</string>
+		<key>SmUUID</key>
+		<string>E8040896-11E9-4C51-8E91-A8E5330C0467</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
