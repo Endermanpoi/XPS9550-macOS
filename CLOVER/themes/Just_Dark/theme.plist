@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>dodvip123</string>
+	<string>Rikankei</string>
 	<key>Description</key>
-	<string>Black and white minimalistic theme</string>
+	<string>Just black and white</string>
 	<key>Theme</key>
 	<dict>
 		<key>Background</key>
 		<dict>
 			<key>Dark</key>
-			<false/>
+			<true/>
 			<key>Path</key>
 			<string>background.png</string>
 			<key>Sharp</key>
@@ -28,8 +28,6 @@
 			<key>Swap</key>
 			<true/>
 		</dict>
-		<key>Banner</key>
-		<string>banner.png</string>
 		<key>BootCampStyle</key>
 		<false/>
 		<key>Components</key>
@@ -56,7 +54,7 @@
 			<key>Path</key>
 			<string>font.png</string>
 			<key>Proportional</key>
-			<false/>
+			<true/>
 			<key>Type</key>
 			<string>Load</string>
 		</dict>
@@ -70,9 +68,9 @@
 		<key>Selection</key>
 		<dict>
 			<key>Big</key>
-			<string>selection.png</string>
+			<string>selection_big.png</string>
 			<key>ChangeNonSelectedGrey</key>
-			<false/>
+			<true/>
 			<key>Color</key>
 			<string>0xFFFFFF80</string>
 			<key>OnTop</key>
@@ -82,6 +80,6 @@
 		</dict>
 	</dict>
 	<key>Year</key>
-	<string>2016</string>
+	<string>2019</string>
 </dict>
 </plist>
