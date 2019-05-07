@@ -662,7 +662,7 @@
 		<key>Arguments</key>
 		<string>dart=0 darkwake=0 brcmfx-country=#a -lilubetaall agdpmod=vit9696 keepsyms=1 debug=0x100</string>
 		<key>DefaultVolume</key>
-		<string>macOS</string>
+		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
@@ -775,16 +775,14 @@
 			<true/>
 			<key>FixOwnership</key>
 			<true/>
+			<key>HighCurrent</key>
+			<true/>
 			<key>Inject</key>
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
 		<false/>
 	</dict>
-	<key>DisableDrivers</key>
-	<array>
-		<string>VBoxHfs</string>
-	</array>
 	<key>GUI</key>
 	<dict>
 		<key>#ScreenResolution</key>
@@ -813,7 +811,7 @@
 			<string>Recovery</string>
 		</array>
 		<key>Language</key>
-		<string>cn:0</string>
+		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
