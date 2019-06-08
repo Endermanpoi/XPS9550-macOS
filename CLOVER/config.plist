@@ -13,7 +13,7 @@
 			<key>Fixes</key>
 			<dict>
 				<key>FixFirewire</key>
-				<true/>
+				<false/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
@@ -213,7 +213,7 @@
 					<key>Comment</key>
 					<string>Rename device RP09.PXSX to SSD0 - syscl_SSD.txt</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					UFhTWA==
@@ -231,7 +231,7 @@
 					<key>Comment</key>
 					<string>Change reference PCI0.RP09.PXSX to PCI0.RP09.SSD0 - syscl_SSD.txt</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					UENJMFJQMDlQWFNY
@@ -245,7 +245,7 @@
 					<key>Comment</key>
 					<string>Change string PCI0.RP09.PXSX to PCI0.RP09.SSD0 - syscl_SSD.txt</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					UENJMC5SUDA5LlBYU1g=
@@ -301,7 +301,7 @@
 					<key>Comment</key>
 					<string>Fix word field length (MSLN, Dword-&gt;Qword) - syscl_fixFieldLen.txt</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					AIpCVUYwC/gBTVNMTg==
@@ -315,7 +315,7 @@
 					<key>Comment</key>
 					<string>RP05._PRW return GPRW (0x09, 0x04) - syscl_PXSX2ARPT.txt</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					AKRHUFJXCmkKBA==
@@ -329,7 +329,7 @@
 					<key>Comment</key>
 					<string>Rename _PWR -&gt; XPRW in PWRB(PNP0C0C) - syscl_PWRB.txt</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1BSVw==
@@ -347,7 +347,7 @@
 					<key>Comment</key>
 					<string>Rename _PSW -&gt; XPSW in PWRB(PNP0C0C) - syscl_PWRB.txt</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1BTVw==
@@ -365,7 +365,7 @@
 					<key>Comment</key>
 					<string>Remove _STA method for PNP0C04 to load - credit syscl</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					AQEiACB5ABQYX1NUQQA=
@@ -379,7 +379,7 @@
 					<key>Comment</key>
 					<string>Device SBTN rename to SLPB pair with SSDT-SLPB - credit syscl</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					U0JUTg==
@@ -685,7 +685,7 @@
 		<key>HWPEnable</key>
 		<true/>
 		<key>QEMU</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -952,6 +952,24 @@
 				<key>Replace</key>
 				<data>
 				SU9LaXM=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable 5G for Brcm4360</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QYP8/3QsSA==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				ZscGVVPrKw==
 				</data>
 			</dict>
 		</array>
