@@ -23,8 +23,8 @@ Win10和macOS双系统:
 
 ### 版本:
 
-* CLOVER:4972
+* CLOVER:5018
 * AppleALC.kext:1.3.9
-* VirtualSMC.kext:1.0.3
-* Lilu.kext:1.3.5
-* WhateverGreen.kext:1.2.8
+* VirtualSMC.kext:1.0.5
+* Lilu.kext:1.3.7
+* WhateverGreen.kext:1.3.0
