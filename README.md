@@ -23,7 +23,7 @@ Win10和macOS双系统:
 
 ### 版本:
 
-* macOS：10.14.6
+* macOS:10.14.6
 * CLOVER:5033
 * AppleALC.kext:1.3.9
 * VirtualSMC.kext:1.0.5
@@ -33,9 +33,12 @@ Win10和macOS双系统:
 ### 备注:
 
 Clover从4983开始把默认EFI驱动目录从EFI/CLOVER/drivers64UEFI移动到了EFI/CLOVER/drivers/UEFI。
-（放在原目录也可以）
+（我今天才发现的，放在原目录也可以）
 
 drivers64UEFI中的README.txt原文：
+
 EFI/CLOVER/drivers64UEFI has been replaced by EFI/CLOVER/drivers/BIOS and You can remove it safely.
+
 Starting from Clover r4983 Clovers loads drivers from new directories, however for retro compatibility search for the old drivers64UEFI if the new path is missing.
+
 Anyway only EFI/CLOVER/drivers/UEFI is updated by the package installer.
