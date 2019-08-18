@@ -24,7 +24,7 @@ Win10和macOS双系统:
 ### 版本:
 
 * macOS:10.14.6
-* CLOVER:5033
+* CLOVER:5045
 * AppleALC.kext:1.3.9
 * VirtualSMC.kext:1.0.5
 * Lilu.kext:1.3.7
@@ -32,13 +32,7 @@ Win10和macOS双系统:
 
 ### 备注:
 
+不知道为什么，用CPU-S测试变频只有3.1GHz到3.5GHz 4个档位，尝试重做变频文件也没有用。
+
 Clover从4983开始把默认EFI驱动目录从EFI/CLOVER/drivers64UEFI移动到了EFI/CLOVER/drivers/UEFI。
 （我今天才发现的，放在原目录也可以）
-
-drivers64UEFI中的README.txt原文：
-
-EFI/CLOVER/drivers64UEFI has been replaced by EFI/CLOVER/drivers/BIOS and You can remove it safely.
-
-Starting from Clover r4983 Clovers loads drivers from new directories, however for retro compatibility search for the old drivers64UEFI if the new path is missing.
-
-Anyway only EFI/CLOVER/drivers/UEFI is updated by the package installer.

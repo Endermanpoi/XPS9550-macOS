@@ -686,6 +686,8 @@
 		<true/>
 		<key>QEMU</key>
 		<false/>
+		<key>Type</key>
+		<string>0x0705</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -826,7 +828,7 @@
 			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
