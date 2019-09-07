@@ -23,7 +23,7 @@ Win10和macOS双系统:
 
 ### 版本:
 
-* macOS:10.14.6
+* macOS:10.14.6(18G95)
 * CLOVER:5070
 * AppleALC.kext:1.3.9
 * VirtualSMC.kext:1.0.5
@@ -31,6 +31,8 @@ Win10和macOS双系统:
 * WhateverGreen.kext:1.3.0
 
 ### 备注:
+
+10.14的小版本更新都可以无损进行。
 
 变频不管了，用Intel Power Gadget看似乎是正常的，CPU-S不准确（对，一定是这样的）。
 
