@@ -612,13 +612,9 @@
 					</data>
 				</dict>
 			</array>
+			<key>SlpSmiAtWake</key>
+			<true/>
 		</dict>
-		<key>DisabledAML</key>
-		<array>
-			<string>SSDT.aml</string>
-			<string>SSDT-XCPM.aml</string>
-			<string>SSDT-PluginType1.aml</string>
-		</array>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -640,6 +636,8 @@
 		<true/>
 		<key>SSDT</key>
 		<dict>
+			<key>DoubleFirstState</key>
+			<true/>
 			<key>DropOem</key>
 			<false/>
 			<key>EnableC2</key>
@@ -648,13 +646,21 @@
 			<true/>
 			<key>EnableC6</key>
 			<true/>
+			<key>EnableC7</key>
+			<true/>
 			<key>Generate</key>
 			<dict>
+				<key>CStates</key>
+				<true/>
+				<key>PStates</key>
+				<true/>
 				<key>PluginType</key>
 				<true/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
+			<key>UnderVoltStep</key>
+			<string>3</string>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -688,6 +694,8 @@
 		<false/>
 		<key>Type</key>
 		<string>0x0705</string>
+		<key>UseARTFrequency</key>
+		<true/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -738,10 +746,18 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>
 				SAAAAA==
 				</data>
+				<key>model</key>
+				<string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -749,10 +765,10 @@
 				<data>
 				AAAbGQ==
 				</data>
-				<key>device-id</key>
-				<data>
-				GxkAAA==
-				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>
 				AQAAAA==
@@ -760,6 +776,30 @@
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
+				</data>
+				<key>framebuffer-con0-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-pipe</key>
+				<data>
+				EgAAAA==
+				</data>
+				<key>framebuffer-con1-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-pipe</key>
+				<data>
+				EgAAAA==
+				</data>
+				<key>framebuffer-con2-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con2-pipe</key>
+				<data>
+				EgAAAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
@@ -769,6 +809,10 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel HD Graphics 530</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -900,6 +944,8 @@
 				</data>
 			</dict>
 		</array>
+		<key>KernelXCPM</key>
+		<true/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
