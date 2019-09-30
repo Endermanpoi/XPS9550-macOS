@@ -23,7 +23,7 @@ Win10和macOS双系统:
 
 ### 版本:
 
-* macOS:10.14.6(18G95)
+* macOS:10.14.6(18G103)
 * CLOVER:5070
 * AppleALC.kext:1.4.1
 * VirtualSMC.kext:1.0.5
@@ -37,4 +37,4 @@ Win10和macOS双系统:
 变频不管了，用Intel Power Gadget看似乎是正常的，CPU-S不准确（对，一定是这样的）。
 
 Clover从4983开始把默认EFI驱动目录从EFI/CLOVER/drivers64UEFI移动到了EFI/CLOVER/drivers/UEFI。
-（我今天才发现的，放在原目录也可以）
+（放在原目录也可以）
