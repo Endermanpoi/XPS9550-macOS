@@ -25,10 +25,10 @@ Win10和macOS双系统:
 
 * macOS:10.14.6(18G103)
 * CLOVER:5070
-* AppleALC.kext:1.4.1
-* VirtualSMC.kext:1.0.5
+* AppleALC.kext:1.4.2
+* VirtualSMC.kext:1.0.8
 * Lilu.kext:1.3.7
-* WhateverGreen.kext:1.3.2
+* WhateverGreen.kext:1.3.3
 
 ### 备注:
 
