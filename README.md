@@ -7,7 +7,7 @@
 * CPU:i7-6700HQ
 * 内存:4GB DDR4 2133 *2
 * 显卡:HD530 + GTX960m（然并卵）
-* 屏幕:4K（1080P config.plist中启动背景->UI比例改为1）
+* 屏幕:4K
 * 网卡:DW1830
 * 硬盘:960PRO 512GB
 
@@ -23,18 +23,21 @@ Win10和macOS双系统:
 
 ### 版本:
 
-* macOS:10.14.6(18G103)
-* CLOVER:5097
-* AppleALC.kext:1.4.2
-* VirtualSMC.kext:1.0.8
-* Lilu.kext:1.3.7
-* WhateverGreen.kext:1.3.3
+* macOS:10.14.6(18G1012)
+* CLOVER:5098
+* AppleALC.kext:1.4.3
+* VirtualSMC.kext:1.0.9
+* Lilu.kext:1.3.9
+* WhateverGreen.kext:1.3.4
 
 ### 备注:
 
 10.14的小版本更新都可以无损进行。
 
-变频不管了，用Intel Power Gadget看似乎是正常的，CPU-S不准确（对，一定是这样的）。
+1080P版本，在config.plist中启动背景->UI比例改为1，纯文本的话是这里`<key>UIScale</key><integer>2</integer>`
 
-Clover从4983开始把默认EFI驱动目录从EFI/CLOVER/drivers64UEFI移动到了EFI/CLOVER/drivers/UEFI。
-（放在原目录也可以）
+i5版本，引用[大佬的教程](https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/Tutorial_10.14.md)
+
+>If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000. Also search for AAPL,ig-platform-id: AAAbGQ== and change it to AAAWGQ== 
+
+但是在我的config.plist并没有找到前一个修改的地方，需要的童鞋自己研究一下试试看吧
