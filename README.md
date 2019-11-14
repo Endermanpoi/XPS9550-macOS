@@ -39,9 +39,15 @@ Win10和macOS双系统:
 10.14的小版本更新都可以无损进行。
 
 1080P版本，修改config.plist  
-Clover Configcurator中：**启动背景->UI比例** 2改为1  
-文本编辑器：`<key>UIScale</key><integer>2</integer>` 2改为1
+Clover Configcurator中：  
+**启动背景 -> UI比例** 2改为1  
+文本编辑器：  
+`<key>UIScale</key><integer>2</integer>` 2改为1
 
-i5版本，修改config.plist  
-Clover Configcurator中：**显卡设置->ig-platform-id** 0x191b0000改为0x19160000 ；**设备设置->属性->设备->PciRoot(0x0)/Pci(0x2,0x0)->AAPL,ig-platform-id** 00001B19改为00001619
-文本编辑器：`<key>ig-platform-id</key><string>0x191b0000</string>` 0x191b0000改为0x19160000 ；`<key>AAPL,ig-platform-id</key><data>AAAbGQ==</data>` 0x191b0000改为0x19160000
+i5版本，（方法来自wmchris的教程，我自己没有i5）修改config.plist  
+Clover Configcurator中：  
+**显卡设置 -> ig-platform-id** 0x191b0000改为0x19160000 ；  
+**设备设置 -> 属性 -> 设备 -> PciRoot(0x0)/Pci(0x2,0x0) -> AAPL,ig-platform-id** 00001B19改为00001619  
+文本编辑器：  
+`<key>ig-platform-id</key><string>0x191b0000</string>` 0x191b0000改为0x19160000 ；  
+`<key>AAPL,ig-platform-id</key><data>AAAbGQ==</data>` AAAbGQ==改为AAAWGQ==
