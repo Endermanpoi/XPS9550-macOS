@@ -1,6 +1,8 @@
+![Computer Info](info.png "My XPS 9550")
+
 # XPS9550-Mojave
 
-参考[大佬的教程和资料](https://github.com/darkhandz/XPS-9550-Mojave)自行修改的
+[黑手大佬](https://github.com/darkhandz/XPS-9550-Mojave)好久没更新了，咸鱼的我不会SSDT和DSDT，遇到相关问题真的自己搞不懂怎么改，所以换到了[wmchris大佬](https://github.com/wmchris/DellXPS15-9550-OSX/tree/10.14)的方案
 
 ### 配置:
 
@@ -32,12 +34,14 @@ Win10和macOS双系统:
 
 ### 备注:
 
+耳机孔用的是[ComboJack](https://github.com/hackintosh-stuff/ComboJack)方案
+
 10.14的小版本更新都可以无损进行。
 
-1080P版本，在config.plist中启动背景->UI比例改为1，纯文本的话是这里`<key>UIScale</key><integer>2</integer>`
+1080P版本，修改config.plist  
+Clover Configcurator中：**启动背景->UI比例** 2改为1  
+文本编辑器：`<key>UIScale</key><integer>2</integer>` 2改为1
 
-i5版本，引用[大佬的教程](https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/Tutorial_10.14.md)
-
->If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000. Also search for AAPL,ig-platform-id: AAAbGQ== and change it to AAAWGQ== 
-
-但是在我的config.plist并没有找到前一个修改的地方，需要的童鞋自己研究一下试试看吧
+i5版本，修改config.plist  
+Clover Configcurator中：**显卡设置->ig-platform-id** 0x191b0000改为0x19160000 ；**设备设置->属性->设备->PciRoot(0x0)/Pci(0x2,0x0)->AAPL,ig-platform-id** 00001B19改为00001619
+文本编辑器：`<key>ig-platform-id</key><string>0x191b0000</string>` 0x191b0000改为0x19160000 ；`<key>AAPL,ig-platform-id</key><data>AAAbGQ==</data>` 0x191b0000改为0x19160000
