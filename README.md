@@ -1,4 +1,4 @@
-![Computer Info](info.png "My XPS 9550")
+![Computer Info](Other/info.png "My XPS 9550")
 
 # XPS9550-Mojave
 
@@ -26,7 +26,7 @@ Win10和macOS双系统:
 ### 版本:
 
 * macOS:10.14.6(18G1012)
-* CLOVER:5098
+* CLOVER:5099
 * AppleALC.kext:1.4.3
 * VirtualSMC.kext:1.0.9
 * Lilu.kext:1.3.9
@@ -34,9 +34,15 @@ Win10和macOS双系统:
 
 ### 备注:
 
-耳机孔用的是[ComboJack](https://github.com/hackintosh-stuff/ComboJack)方案
+**Caps Lock 的大写锁定指示灯不会常亮，只会在按下时亮，认为是DSDT之类的问题，但是我不知道怎么修复**
 
-10.14的小版本更新都可以无损进行。
+耳机孔用的是[ComboJack](https://github.com/hackintosh-stuff/ComboJack)方案  
+10.14的小版本更新都可以无损进行。  
+Other中的icm文件是用DisplayCAL和Spyder5校准的4K色彩文件，macOS下放到`~/Library/ColorSync/Profiles/`目录下即可在显示器设置中使用  
+
+***
+
+### 不同版本修改:
 
 1080P版本，修改config.plist  
 Clover Configcurator中：  
