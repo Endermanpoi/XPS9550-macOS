@@ -1,4 +1,4 @@
-![Computer Info](Other/info.png "My XPS 9550")
+![Computer Info](Other/info-10.15.png "My XPS 9550")
 
 # XPS9550-Catalina
 
