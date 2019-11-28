@@ -1,7 +1,8 @@
-![Computer Info](Other/info.png "My XPS 9550")
+![Computer Info](Other/info-10.14.png "My XPS 9550")
 
 # XPS9550-Mojave
 
+**更新到10.15，10.14弃疗，不再更新**  
 [黑手大佬](https://github.com/darkhandz/XPS-9550-Mojave)好久没更新了，咸鱼的我不会SSDT和DSDT，遇到相关问题真的自己搞不懂怎么改，所以换到了[wmchris大佬](https://github.com/wmchris/DellXPS15-9550-OSX/tree/10.14)的方案
 
 ### 配置:
