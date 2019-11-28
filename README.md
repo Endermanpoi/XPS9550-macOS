@@ -1,8 +1,8 @@
 ![Computer Info](Other/info.png "My XPS 9550")
 
-# XPS9550-Mojave
+# XPS9550-Catalina
 
-[黑手大佬](https://github.com/darkhandz/XPS-9550-Mojave)好久没更新了，咸鱼的我不会SSDT和DSDT，遇到相关问题真的自己搞不懂怎么改，所以换到了[wmchris大佬](https://github.com/wmchris/DellXPS15-9550-OSX/tree/10.14)的方案
+参考[黑手大佬](https://github.com/darkhandz/XPS-9550-Mojave)和[wmchris大佬](https://github.com/wmchris/DellXPS15-9550-OSX)的方案，全新安装（才不是什么手贱把10.14删掉了）
 
 ### 配置:
 
@@ -21,11 +21,9 @@ Win10和macOS双系统:
 * Win10:100GB NTFS
 * 资料盘:300+GB exFAT
 
-（便于双系统读写，以4096簇大小格式化，虽然分区表会很大，但存小文件就不会占用太多空间）
-
 ### 版本:
 
-* macOS:10.14.6(18G1012)
+* macOS:10.15.1(19B88)
 * CLOVER:5099
 * AppleALC.kext:1.4.3
 * VirtualSMC.kext:1.0.9
@@ -37,7 +35,7 @@ Win10和macOS双系统:
 **Caps Lock 的大写锁定指示灯不会常亮，只会在按下时亮，认为是DSDT之类的问题，但是我不知道怎么修复**
 
 耳机孔用的是[ComboJack](https://github.com/hackintosh-stuff/ComboJack)方案  
-10.14的小版本更新都可以无损进行。  
+**10.15的小版本更新未测试。**  
 Other中的icm文件是用DisplayCAL和Spyder5校准的4K色彩文件，macOS下放到`~/Library/ColorSync/Profiles/`目录下即可在显示器设置中使用  
 
 ***
