@@ -23,7 +23,7 @@ Win10和macOS双系统:
 
 ### 版本:
 
-* macOS:10.15.1(19B88)
+* macOS:10.15.2(19C57)
 * CLOVER:5100
 * AppleALC.kext:1.4.4
 * VirtualSMC.kext:1.0.9
