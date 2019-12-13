@@ -37,6 +37,7 @@ Win10和macOS双系统:
 耳机孔用的是[ComboJack](https://github.com/hackintosh-stuff/ComboJack)方案  
 **10.15的小版本更新未测试。**  
 Other中的icm文件是用DisplayCAL和Spyder5校准的4K色彩文件，macOS下放到`~/Library/ColorSync/Profiles/`目录下即可在显示器设置中使用  
+ “关于本机” 机型名称在`/User/%用户名%/Library/Preferences/com.apple.SystemProfiler.plist`文件中修改
 
 ***
 
