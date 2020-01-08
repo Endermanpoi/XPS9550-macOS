@@ -2,7 +2,7 @@
 
 # XPS9550-Catalina
 
-参考[黑手大佬](https://github.com/darkhandz/XPS-9550-Mojave)和[wmchris大佬](https://github.com/wmchris/DellXPS15-9550-OSX)的方案，全新安装（才不是什么手贱把10.14删掉了）
+参考[黑手大佬](https://github.com/darkhandz/XPS15-9550-Catalina)和[wmchris大佬](https://github.com/wmchris/DellXPS15-9550-OSX)的方案，全新安装（才不是什么手贱把10.14删掉了）
 
 ### 配置:
 
