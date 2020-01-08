@@ -34,6 +34,7 @@ Win10和macOS双系统:
 
 **Caps Lock 的大写锁定指示灯不会常亮，只会在按下时亮，认为是DSDT之类的问题，但是我不知道怎么修复**
 
+雷电3接口似乎可以用，但是没有设备测试，接手机可以热拔插  
 耳机孔用的是[ComboJack](https://github.com/hackintosh-stuff/ComboJack)方案  
 **10.15的小版本更新未测试。**  
 Other中的icm文件是用DisplayCAL和Spyder5校准的4K色彩文件，macOS下放到`~/Library/ColorSync/Profiles/`目录下即可在显示器设置中使用  
