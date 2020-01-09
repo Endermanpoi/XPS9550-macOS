@@ -32,7 +32,7 @@ Win10和macOS双系统:
 
 ### 备注:
 
-<font color=#FF0000 size=4>VoodooI2C 2.3版本有BUG，与变频控制SSDT-TPDX有冲突，睡眠后驱动奔溃，[对应issue](https://github.com/alexandred/VoodooI2C/issues/231)</font>  
+**VoodooI2C 2.3版本有BUG，与变频控制SSDT-TPDX有冲突，睡眠后驱动奔溃，[对应issue](https://github.com/alexandred/VoodooI2C/issues/231)**  
 
 **Caps Lock 的大写锁定指示灯不会常亮，只会在按下时亮，认为是DSDT之类的问题，但是我不知道怎么修复**  
 雷电3接口似乎可以用，但是没有设备测试，接手机可以热拔插  
