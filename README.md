@@ -23,12 +23,25 @@ Win10和macOS双系统:
 
 ### 版本:
 
-* macOS:10.15.2(19C57)
-* CLOVER:5102
-* AppleALC.kext:1.4.4
-* VirtualSMC.kext:1.0.9
-* Lilu.kext:1.4.0
-* WhateverGreen.kext:1.3.5
+| | | |
+|:----:|:----:|----|
+|系统|macOS|10.15.2|
+| | |19C57|
+|引导|CLOVER|5103|
+|Kext|AirportBrcmFixup|2.0.5|
+| |AppleALC|1.4.5|
+| |BT4LEContinuityFixup|1.1.4|
+| |BrcmPatchRAM|2.5.1|
+| |CPUFriend|1.2.0|
+| |FakePCIID|1.3.15|
+| |HibernationFixup|1.3.2|
+| |Lilu|1.4.1|
+| |NoTouchID|1.0.3|
+| |VirtualSMC|1.1.0|
+| |VoodooI2C|2.2|
+| |VoodooPS2Controller|2.1.0|
+| |WhateverGreen|1.3.6|
+| | | |
 
 ### 备注:
 

@@ -281,16 +281,6 @@
 					<key>Replace</key>
 					<data>pABZVEJUVEJTRUNQR04=</data>
 				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Redirect _E42 call to solve recursion issue for USB-C hotplug, pair with SSDT-XE42 - dpassmor</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>k0RQVEYBX0U0MqQ=</data>
-					<key>Replace</key>
-					<data>k0RQVEYBWEU0MqQ=</data>
-				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
