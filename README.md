@@ -25,9 +25,9 @@ Win10和macOS双系统:
 
 | | | |
 |:----:|:----:|----|
-|系统|macOS|10.15.3|
-| | |19C76|
-|引导|CLOVER|5103|
+|系统|macOS|10.15.4|
+| | |19E266|
+|引导|CLOVER|5108|
 |Kext|AirportBrcmFixup|2.0.6|
 | |AppleALC|1.4.7|
 | |BT4LEContinuityFixup|1.1.4|
@@ -45,6 +45,7 @@ Win10和macOS双系统:
 
 ### 备注:
 
+**外接HDMI显示器在睡眠后，唤醒时不会一起唤醒，需要重新拔插**  
 **VoodooI2C 2.3版本有BUG，与变频控制SSDT-TPDX有冲突，睡眠后驱动奔溃，[对应issue](https://github.com/alexandred/VoodooI2C/issues/231)**  
 
 **Caps Lock 的大写锁定指示灯不会常亮，只会在按下时亮，认为是DSDT之类的问题，但是我不知道怎么修复**  
@@ -52,7 +53,8 @@ Win10和macOS双系统:
 耳机孔用的是[ComboJack](https://github.com/hackintosh-stuff/ComboJack)方案  
 支持10.15的小版本更新（目前）  
 Other中的icm文件是用DisplayCAL和Spyder5校准的4K色彩文件，macOS下放到`~/Library/ColorSync/Profiles/`目录下即可在显示器设置中使用  
- “关于本机” 机型名称在`/User/%用户名%/Library/Preferences/com.apple.SystemProfiler.plist`文件中修改
+ “关于本机” 机型名称在`/User/%用户名%/Library/Preferences/com.apple.SystemProfiler.plist`文件中修改  
+重做了主题的图标，很奇怪，不识别以前的icns图标文件，但是png直接改后缀名的反而可以用
 
 ***
 
