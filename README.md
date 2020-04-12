@@ -26,27 +26,26 @@ Win10和macOS双系统:
 | | | |
 |:----:|:----:|----|
 |系统|macOS|10.15.4|
-| | |19E266|
+| | |19E287|
 |引导|CLOVER|5108|
 |Kext|AirportBrcmFixup|2.0.6|
-| |AppleALC|1.4.7|
+| |AppleALC|1.4.8|
 | |BT4LEContinuityFixup|1.1.4|
-| |BrcmPatchRAM|2.5.1|
+| |BrcmPatchRAM|2.5.2|
 | |CPUFriend|1.2.0|
 | |FakePCIID|1.3.15|
 | |HibernationFixup|1.3.2|
-| |Lilu|1.4.2|
+| |Lilu|1.4.3|
 | |NoTouchID|1.0.3|
-| |VirtualSMC|1.1.1|
-| |VoodooI2C|2.2|
-| |VoodooPS2Controller|2.1.2|
-| |WhateverGreen|1.3.7|
+| |VirtualSMC|1.1.2|
+| |VoodooI2C|2.4|
+| |VoodooPS2Controller|2.1.3|
+| |WhateverGreen|1.3.8|
 | | | |
 
 ### 备注:
 
 **外接HDMI显示器在睡眠后，唤醒时不会一起唤醒，需要重新拔插**  
-**VoodooI2C 2.3版本有BUG，与变频控制SSDT-TPDX有冲突，睡眠后驱动奔溃，[对应issue](https://github.com/alexandred/VoodooI2C/issues/231)**  
 
 **Caps Lock 的大写锁定指示灯不会常亮，只会在按下时亮，认为是DSDT之类的问题，但是我不知道怎么修复**  
 雷电3接口似乎可以用，但是没有设备测试，接手机可以热拔插  
