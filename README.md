@@ -38,7 +38,7 @@ Win10和macOS双系统:
 | |Lilu|1.4.3|
 | |NoTouchID|1.0.3|
 | |VirtualSMC|1.1.2|
-| |VoodooI2C|2.4|
+| |VoodooI2C|2.4.1|
 | |VoodooPS2Controller|2.1.3|
 | |WhateverGreen|1.3.8|
 | | | |
