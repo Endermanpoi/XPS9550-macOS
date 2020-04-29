@@ -27,7 +27,7 @@ Win10和macOS双系统:
 |:----:|:----:|----|
 |系统|macOS|10.15.4|
 | | |19E287|
-|引导|CLOVER|5108|
+|引导|CLOVER|5115|
 |Kext|AirportBrcmFixup|2.0.6|
 | |AppleALC|1.4.8|
 | |BT4LEContinuityFixup|1.1.4|
@@ -38,7 +38,7 @@ Win10和macOS双系统:
 | |Lilu|1.4.3|
 | |NoTouchID|1.0.3|
 | |VirtualSMC|1.1.2|
-| |VoodooI2C|2.4.1|
+| |VoodooI2C|2.4.2|
 | |VoodooPS2Controller|2.1.3|
 | |WhateverGreen|1.3.8|
 | | | |
