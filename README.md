@@ -27,27 +27,26 @@ Win10和macOS双系统:
 |:----:|:----:|----|
 |系统|macOS|10.15.4|
 | | |19E287|
-|引导|CLOVER|5115|
-|Kext|AirportBrcmFixup|2.0.6|
-| |AppleALC|1.4.8|
+|引导|CLOVER|5117|
+|Kext|AirportBrcmFixup|2.0.7|
+| |AppleALC|1.4.9|
 | |BT4LEContinuityFixup|1.1.4|
-| |BrcmPatchRAM|2.5.2|
+| |BrcmPatchRAM|2.5.3|
 | |CPUFriend|1.2.0|
 | |FakePCIID|1.3.15|
-| |HibernationFixup|1.3.2|
-| |Lilu|1.4.3|
+| |HibernationFixup|1.3.3|
+| |Lilu|1.4.4|
+| |NVMeFix|1.0.2|
 | |NoTouchID|1.0.3|
-| |VirtualSMC|1.1.2|
+| |VirtualSMC|1.1.3|
 | |VoodooI2C|2.4.2|
-| |VoodooPS2Controller|2.1.3|
-| |WhateverGreen|1.3.8|
+| |VoodooInput|1.0.5|
+| |VoodooPS2Controller|2.1.4|
+| |WhateverGreen|1.3.9|
 | | | |
 
 ### 备注:
 
-**外接HDMI显示器在睡眠后，唤醒时不会一起唤醒，需要重新拔插**  
-
-**Caps Lock 的大写锁定指示灯不会常亮，只会在按下时亮，认为是DSDT之类的问题，但是我不知道怎么修复**  
 雷电3接口似乎可以用，但是没有设备测试，接手机可以热拔插  
 耳机孔用的是[ComboJack](https://github.com/hackintosh-stuff/ComboJack)方案  
 支持10.15的小版本更新（目前）  
