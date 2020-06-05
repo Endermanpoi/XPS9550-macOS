@@ -25,9 +25,9 @@ Win10和macOS双系统:
 
 | | | |
 |:----:|:----:|----|
-|系统|macOS|10.15.4|
-| | |19E287|
-|引导|CLOVER|5117|
+|系统|macOS|10.15.5|
+| | |19F101|
+|引导|CLOVER|5119|
 |Kext|AirportBrcmFixup|2.0.7|
 | |AppleALC|1.4.9|
 | |BT4LEContinuityFixup|1.1.4|
@@ -35,14 +35,14 @@ Win10和macOS双系统:
 | |CPUFriend|1.2.0|
 | |FakePCIID|1.3.15|
 | |HibernationFixup|1.3.3|
-| |Lilu|1.4.4|
+| |Lilu|1.4.5|
 | |NVMeFix|1.0.2|
 | |NoTouchID|1.0.3|
-| |VirtualSMC|1.1.3|
-| |VoodooI2C|2.4.2|
-| |VoodooInput|1.0.5|
-| |VoodooPS2Controller|2.1.4|
-| |WhateverGreen|1.3.9|
+| |VirtualSMC|1.1.4|
+| |VoodooI2C|2.4.3|
+| |VoodooInput|1.0.6|
+| |VoodooPS2Controller|2.1.5|
+| |WhateverGreen|1.4.0|
 | | | |
 
 ### 备注:
