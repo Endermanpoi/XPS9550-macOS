@@ -2,7 +2,7 @@
 
 # XPS9550-Catalina
 
-参考[黑手大佬](https://github.com/darkhandz/XPS15-9550-Catalina)和[wmchris大佬](https://github.com/wmchris/DellXPS15-9550-OSX)的方案，全新安装（才不是什么手贱把10.14删掉了）
+参考[黑手大佬](https://github.com/darkhandz/XPS15-9550-Catalina)和[wmchris大佬](https://github.com/wmchris/DellXPS15-9550-OSX)的方案
 
 ### 配置:
 
@@ -25,24 +25,24 @@ Win10和macOS双系统:
 
 | | | |
 |:----:|:----:|----|
-|系统|macOS|10.15.5|
-| | |19F101|
-|引导|CLOVER|5119|
-|Kext|AirportBrcmFixup|2.0.7|
-| |AppleALC|1.4.9|
-| |BT4LEContinuityFixup|1.1.4|
-| |BrcmPatchRAM|2.5.3|
-| |CPUFriend|1.2.0|
+|系统|macOS|10.15.6|
+| | |19G2021|
+|引导|CLOVER|5120|
+|Kext|AirportBrcmFixup|2.0.8|
+| |AppleALC|1.5.1|
+| |BT4LEContinuityFixup|1.1.5|
+| |BrcmPatchRAM|2.5.4|
+| |CPUFriend|1.2.1|
 | |FakePCIID|1.3.15|
-| |HibernationFixup|1.3.3|
-| |Lilu|1.4.5|
-| |NVMeFix|1.0.2|
-| |NoTouchID|1.0.3|
-| |VirtualSMC|1.1.4|
-| |VoodooI2C|2.4.3|
-| |VoodooInput|1.0.6|
-| |VoodooPS2Controller|2.1.5|
-| |WhateverGreen|1.4.0|
+| |HibernationFixup|1.3.4|
+| |Lilu|1.4.6|
+| |NVMeFix|1.0.3|
+| |NoTouchID|1.0.4|
+| |VirtualSMC|1.1.5|
+| |VoodooI2C|2.4.4|
+| |VoodooInput|1.0.7|
+| |VoodooPS2Controller|2.1.6|
+| |WhateverGreen|1.4.1|
 | | | |
 
 ### 备注:
@@ -52,7 +52,6 @@ Win10和macOS双系统:
 支持10.15的小版本更新（目前）  
 Other中的icm文件是用DisplayCAL和Spyder5校准的4K色彩文件，macOS下放到`~/Library/ColorSync/Profiles/`目录下即可在显示器设置中使用  
  “关于本机” 机型名称在`/User/%用户名%/Library/Preferences/com.apple.SystemProfiler.plist`文件中修改  
-重做了主题的图标，很奇怪，不识别以前的icns图标文件，但是png直接改后缀名的反而可以用
 
 ***
 
